@@ -1,7 +1,5 @@
-# Task1.1P_SwitchingONLights
-This is code file for smart light system.
-In this task, I have used two led and a push button. When push button is pressed a signal goes to pin 5 which listens for any change. Then in code file there is if-else statement which triggers the bulb to glow. Both bulb glow and turn off after interval of 3 seconds. 
+# Lighting System for the Hallway and Porch
 
+This project for Arduino implements a system that emulates the function of the porch and hallway lights for Linda when she gets home. The push button simulates Linda’s arrival into the house. Upon its press, both LEDs turn on.
 
-Task by Ravneet Singh.
-2510994789
+The code is written in such a way that it sets the button as INPUT_PULLUP and both LEDs as OUTPUT. The code runs an endless loop that reads the button state and turns both LEDs ON. After 3 seconds, the porch LED turns OFF and after another 3 seconds, the hallway LED turns OFF. The button is attached to pin 5, the porch LED is attached to pin 3 and the hallway LED is attached to pin 7.
